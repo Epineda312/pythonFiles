@@ -1,2 +1,2 @@
 # pythonFiles
-learning Python
+python notes and projects
