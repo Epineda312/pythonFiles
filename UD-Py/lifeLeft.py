@@ -6,9 +6,10 @@ myAge = int(age)
 days_left = 32850 - (myAge * 365)
 weeks_left =  4680 - (myAge * 52)
 months_left = 1080 - (myAge * 12)
+years_left = 90 - (myAge)
 
 #Use f string to print result of calculation
-print(f"You have {days_left} days, {weeks_left} weeks, and {months_left} months left")
+print(f"You have {days_left} days, {weeks_left} weeks, {months_left} months, and {years_left} years left")
 
 """
 --Notes--
