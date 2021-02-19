@@ -1,5 +1,5 @@
-#Write your code below this row 👇
-# 1. Remember your answer should start from 1 and go up to and including 100. 
+
+# 1. Your answer should start from 1 and go up to and including 100. 
 # 2. Each number/text should be printed on a separate line.
 # > `Your program should print each number from 1 to 100 in turn.` 
 
