@@ -1,4 +1,3 @@
-#Write your code below this row 👇
 total_evens = 0
 for number in range(2, 101, 2):
   print(number)
