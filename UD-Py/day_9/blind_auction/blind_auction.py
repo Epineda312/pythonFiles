@@ -4,8 +4,6 @@ bids = {}
 bidding_finished = False
 
 # function to find highest bidder
-
-
 def find_highest_bidder(bids):
     highest_bid = 0
     winner = ""
@@ -15,8 +13,7 @@ def find_highest_bidder(bids):
             highest_bid = bid_amount
             winner = bidder
     print(f"The highest bidder is {winner} with a bid of ${highest_bid}")
-
-
+    
 # Show logo from Art.py
 print(logo)
 
