@@ -25,8 +25,7 @@ while not bidding_finished:
     # add new key value pair to dictionary
     bids[name] = bid_price
     # ask if there are other users who want to bid
-    should_continue = input(
-        "Is there any other bidders? Please type 'Y' or 'N'\n").lower()
+    should_continue = input("Is there any other bidders? Please type 'Y' or 'N'\n").lower()
     # If there is no more new bidders, find current highest and display it while ending the loop.
     if should_continue == 'n':
         bidding_finished = True
