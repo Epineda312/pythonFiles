@@ -14,27 +14,13 @@ def random_color():
     return random_color
 
 
-def draw_shape(num_sides):
-    angle = 360 / num_sides
-    for _ in range(num_sides):
-        tim.forward(100)
-        tim.right(angle)
-
-
-def random_walk():
-    for _ in range(200):
-        tim.color(random_color())
-        tim.forward(30)
-        tim.setheading(random.choice(directions))
-
 def draw_spirograph(size_of_gap):
     for _ in range(int(360 / size_of_gap)):
         tim.color(random_color())
         tim.circle(100)
         tim.setheading(tim.heading() + size_of_gap)
 
-# colors = ["Black", "Red", "CornflowerBlue", "DarkOrchid", "IndianRed", "DeepSkyBlue", "LightSeaGreen", "wheat",
-#           "SlateGray", "SeaGreen"]
+
 directions = [0, 90, 180, 270]
 tim.pensize(3)
 tim.shape("turtle")
@@ -42,15 +28,31 @@ tim.shape("turtle")
 # control tim
 draw_spirograph(5)
 
-
-
-
-
-
-
-
 screen = t.Screen()
 screen.exitonclick()
+
+
+
+
+
+
+
+
+
+# colors = ["Black", "Red", "CornflowerBlue", "DarkOrchid", "IndianRed", "DeepSkyBlue", "LightSeaGreen", "wheat",
+#           "SlateGray", "SeaGreen"]
+# def draw_shape(num_sides):
+#     angle = 360 / num_sides
+#     for _ in range(num_sides):
+#         tim.forward(100)
+#         tim.right(angle)
+#
+#
+# def random_walk():
+#     for _ in range(200):
+#         tim.color(random_color())
+#         tim.forward(30)
+#         tim.setheading(random.choice(directions))
 
 # def square():
 #     for _ in range(4):
